@@ -1,0 +1,93 @@
+28/01/2015 10:40:37
+empleats sense email : 12
+28/01/2015 10:40:39
+sense EMAIL, i problemes al LDAP, no hi ha manera de localitzar a : 40893371ESTARANJUSTRIBO
+28/01/2015 10:40:39
+sense EMAIL, i problemes al LDAP, no hi ha manera de localitzar a : 53923301FONTBERNET
+28/01/2015 10:40:39
+sense EMAIL, i problemes al LDAP, no hi ha manera de localitzar a : 47931483GONZALEZGALLEGO
+28/01/2015 10:40:39
+sense EMAIL, i problemes al LDAP, no hi ha manera de localitzar a : Y2016623KEM MEKAHKADZUE
+28/01/2015 10:40:39
+sense EMAIL, i problemes al LDAP, no hi ha manera de localitzar a : 25469729MIGUELBLANCO
+28/01/2015 10:40:40
+sense EMAIL, i problemes al LDAP, no hi ha manera de localitzar a : 49939178MUGURUZAINGA
+28/01/2015 10:40:40
+sense EMAIL, i problemes al LDAP, no hi ha manera de localitzar a : 72489575OJANGURENARRANZ
+28/01/2015 10:40:40
+sense EMAIL, i problemes al LDAP, no hi ha manera de localitzar a : 53652920PALACIOSTRUJILLO
+28/01/2015 10:40:40
+sense EMAIL, i problemes al LDAP, no hi ha manera de localitzar a : Y2565934SAFFARITABALVANDANI
+28/01/2015 10:40:41
+sense EMAIL, i problemes al LDAP, no hi ha manera de localitzar a : 47698098TABERNERVALLVERDU
+28/01/2015 10:40:41
+sense EMAIL, i problemes al LDAP, no hi ha manera de localitzar a : Y3588512VICENTEBENFEITAS
+28/01/2015 10:40:42
+sense EMAIL, i problemes al LDAP, no hi ha manera de localitzar a : 40884804VILAJUSTRIBO
+28/01/2015 10:40:43
+empleats sense uid : 16
+28/01/2015 10:40:43
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : Y2090243
+28/01/2015 10:40:43
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : 52163964
+28/01/2015 10:40:43
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : 25469729
+28/01/2015 10:40:43
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : Y3343132
+28/01/2015 10:40:43
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : 47698098
+28/01/2015 10:40:44
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : 53923301
+28/01/2015 10:40:44
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : X5184841
+28/01/2015 10:40:44
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : 72489575
+28/01/2015 10:40:44
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : Y2534673
+28/01/2015 10:40:45
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : Y2565934
+28/01/2015 10:40:45
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : 47931483
+28/01/2015 10:40:45
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : Y3423786
+28/01/2015 10:40:45
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : 49939178
+28/01/2015 10:40:46
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : 53652920
+28/01/2015 10:40:46
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : Y2016623
+28/01/2015 10:40:46
+Sense UID i problemes al LDAP, no hi ha manera de localitzar a : Y3588512
+28/01/2015 10:40:49
+Finalment personal sense email = 12
+
+ESTARAN;JUSTRIBO;40893371S
+FONT;BERNET;53923301P
+GONZALEZ;GALLEGO;47931483N
+KEM MEKAH;KADZUE;Y2016623C
+MIGUEL;BLANCO;25469729N
+MUGURUZA;INGA;49939178Z
+OJANGUREN;ARRANZ;72489575S
+PALACIOS;TRUJILLO;53652920S
+SAFFARI;TABALVANDANI;Y2565934E
+TABERNER;VALLVERDU;47698098P
+VICENTE;BENFEITAS;Y3588512C
+VILA;JUSTRIBO;40884804G28/01/2015 10:40:50
+Finalment personal sense UID = 16
+
+ALCALA;CASTELBLANQUE;52163964X
+FONT;BERNET;53923301P
+GONZALEZ;GALLEGO;47931483N
+HEIDARKHANTEHRANI;;Y3423786C
+KEM MEKAH;KADZUE;Y2016623C
+LAMNATOU;;Y2090243V
+MIGUEL;BLANCO;25469729N
+MUGURUZA;INGA;49939178Z
+OH;;X5184841C
+OJANGUREN;ARRANZ;72489575S
+PALACIOS;TRUJILLO;53652920S
+PORCHEDDU;;Y3343132G
+RIBEIRO ;TOSTES;Y2534673H
+SAFFARI;TABALVANDANI;Y2565934E
+TABERNER;VALLVERDU;47698098P
+VICENTE;BENFEITAS;Y3588512C
