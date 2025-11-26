@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("UdL")]
 [assembly: AssemblyProduct("ActualizadorGinPixdeLDAP")]
-[assembly: AssemblyCopyright("Copyright © UdL 2015")]
+[assembly: AssemblyCopyright("Copyright © UdL 2015-2040")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

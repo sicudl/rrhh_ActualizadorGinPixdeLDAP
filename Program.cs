@@ -1,4 +1,4 @@
-﻿#define SERVEISWEB_noORACLECLIENTINSTALL_NEEDED
+﻿//#define SERVEISWEB_noORACLECLIENTINSTALL_NEEDED
 
 using System;
 using System.Collections;
@@ -8,6 +8,7 @@ using System.Text;
 
 using RecursosProgramacio;
 using MultiTools.General;
+using ConectorLDAP;
 
 namespace ActualizadorGinPixdeLDAP
 {
@@ -48,7 +49,7 @@ namespace ActualizadorGinPixdeLDAP
             bdGinPIX = RunScriptSQL(strConsultaEmpleadosSinEmailenGinPix);
 
 #else
-            ConectorOracle.Conector bdGinPIX = new ConectorOracle.Conector("ginpixdb.udl.cat", "1521", "gxpower", "gxpower", "gxpower");
+          bdGinPIX = new ConectorOracle.Conector("ginpixdb.udl.cat", "1521", "gxpower", "gxpower", "gxpower");
             bdGinPIX.GetDades(strConsultaEmpleadosSinEmailenGinPix);
             Dades=bdGinPIX.Dades;
 #endif
@@ -199,6 +200,8 @@ namespace ActualizadorGinPixdeLDAP
             //Primer intento...
             if (!Actualizado)
             {
+                //Testme!
+                //LDAP.GetDades("(&(employee//Number=437160))", true);
                 LDAP.GetDades("(&(employeeNumber=" + DNINumero + "))", true);
 
                 if (LDAP.Dades.Count > 0)
@@ -257,12 +260,18 @@ namespace ActualizadorGinPixdeLDAP
         {
             //string AppServer = "http://localhost:1070/ERdpServeiWeb/Service.asmx";
             //string AppServer = "http://ercd.udl.net:8080/ercd/service.asmx";
+
+            // OK pre canvi a nouercd <2025
             string AppServer = "http://ercd.udl.net:4646/service.asmx";
+            
+            // >1!/2025
+            //string AppServer = "http://nouercd.udl.cat:8888/Service.asmx";
+               
 
             ClientOracle.Conector DadesUXXIOracle = null;
             ConectorOracle.Conector mbdGinPIX = null;
 
-            DadesUXXIOracle = new ClientOracle.Conector(AppServer, "gxpower", "ginpixdb.udl.cat", "gxpower");
+            DadesUXXIOracle = new ClientOracle.Conector(AppServer, "gxpower", "ginpixdb.udl.cat", "gxpower");            
             DadesUXXIOracle.GetDades(SQLQuery);
             if (DadesUXXIOracle.HasRegisters)
             {
